@@ -1,0 +1,183 @@
+$primary-color: #55BB06;
+$secondary-color: #d7d7d7;
+
+.header-wrapper {
+    background-color: #fff;
+    margin: 0;  
+    height: 100px;
+    width: 100%;
+}
+
+.header-container {
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.logo-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 140px;
+    height: 40px;
+    font-size: 35px;
+    & > span {
+        color: $primary-color;
+    }
+}
+
+.sublogo {
+    font-size: 10px;
+    width: 140px;
+    margin-right: auto;
+}
+
+.plane {
+    position: relative;
+    top: 17px;
+    left: 5px;
+}
+
+.booking {
+    margin-top: 1px;
+    & > p {
+        margin: 0 auto;
+        font-size: 28px;
+    }
+}
+
+.extra-small {
+    font-size: 9px !important;
+    background-color: $secondary-color  !important;
+    min-width: 40px  !important;
+    padding: 3px  !important;
+    height: 20px !important;
+    margin-right: 10px;
+}
+
+.header_button-wrapper {
+    margin: 0 auto;;
+}
+
+.header_contacts {
+    & > p {
+        margin: 0;
+        text-align: end;
+    }
+}
+
+.destination_wrapper {
+    margin-top: 40px;
+}
+
+.aviata_container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.destination_bar {
+    min-height: 110px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.destination-choose {
+    display: flex;
+}
+
+.arrows {
+    position: relative;
+    top: 15px;
+    margin: 10px;
+}
+
+.content_wrapper {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 72px;
+    justify-content: space-between;
+}
+
+.options_wrapper {
+    width: 20%;
+}
+
+.offer_wrapper {
+    width: 78%;
+}
+
+.content_card {
+    margin-bottom: 30px;
+    width: 100%;
+    min-height: 168px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.airline {
+    & > div {
+        padding: 10px;
+        font-weight: 600;
+    }
+}
+
+.date {
+    font-size: 12px;
+    text-align: center;
+}
+
+.time {
+    font-size: 24px;
+    text-align: center;
+}
+
+.code {
+    color: $secondary-color;
+    font-size: 12px;
+}
+
+.duration {
+    font-size: 12px;
+}
+
+.elipse {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #B9B9B9;
+}
+
+.line {
+    width: 70px;
+    height: 1px;
+    background-color: #B9B9B9;
+    padding: 0px;
+    margin: 2px;
+}
+
+.offer_info {
+    width: 80%;
+    padding-left: 2%;
+    margin-top: 50px;
+}
+
+.offer_price {
+    width: 20%;
+    padding: 12px;
+}
+
+.line-wrapper {
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.spare_info {
+    text-align: center;
+    font-size: 12px;
+    color: #FF9900;
+}
